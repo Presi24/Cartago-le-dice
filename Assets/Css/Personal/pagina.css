@@ -1,0 +1,18 @@
+
+.text-wrap {
+    word-wrap: break-word; /* Permite el ajuste del texto */
+}
+
+
+h1, h4 {
+    margin-top: 0.5rem;
+    font-size: 1.1rem; /* Ajusta el tamaño del texto para ser proporcional */
+}
+p,h1,h4
+{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+p:hover, h1:hover, h4:hover {
+    color: gray;
+}
